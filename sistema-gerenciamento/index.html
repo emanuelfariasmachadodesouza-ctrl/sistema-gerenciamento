@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sistema de gerenciamento</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Sistema de gerenciamento</h1>
+    <p class="sub">Demonstração: PHP + JavaScript + MySQL</p>
+
+    <form id="form">
+      <input id="titulo" placeholder="Nova tarefa" required maxlength="150">
+      <input id="responsavel" placeholder="Responsável" maxlength="100">
+      <button>Adicionar</button>
+    </form>
+
+    <p id="msg" class="erro" hidden></p>
+    <ul id="lista"></ul>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
